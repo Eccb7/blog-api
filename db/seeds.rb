@@ -21,7 +21,7 @@ end
 # Create sample articles with proper tag associations
 50.times do |i|
   title = "#{Faker::Books::Dune.quote} #{SecureRandom.hex(4)}"
-  
+
   article = Article.find_or_create_by!(title: title) do |new_article|
     new_article.content = Faker::Lorem.paragraphs(number: 5).join("\n\n")
     new_article.published_at = rand(1..365).days.ago

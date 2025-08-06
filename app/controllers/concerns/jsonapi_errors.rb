@@ -4,11 +4,11 @@ module JsonapiErrors
   included do
     def render_jsonapi_error(error, status:)
       render json: {
-        errors: [{
+        errors: [ {
           status: status.to_s,
           title: error.class.name.demodulize,
           detail: error.message
-        }]
+        } ]
       }, status: status
     end
   end

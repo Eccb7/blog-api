@@ -5,7 +5,7 @@ RSpec.describe "Api::V1::Articles", type: :request do
     {
       title: "Test Article",
       content: "Test content",
-      tags: ["tech", "ruby"],
+      tags: [ "tech", "ruby" ],
       published_at: Time.current
     }
   }

@@ -14,7 +14,7 @@ A RESTful API for managing blog articles and tags built with Ruby on Rails.
 ## Tech Stack
 
 - **Ruby**: 3.2.0
-- **Rails**: 7.0+
+- **Rails**: 8.0+
 - **Database**: PostgreSQL (with UUID support)
 - **Testing**: RSpec (optional)
 

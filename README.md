@@ -22,7 +22,7 @@ A RESTful API for managing blog articles and tags built with Ruby on Rails.
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/Eccb7/blog-api.git
    cd blog-api
    ```
 
